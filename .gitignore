@@ -1,0 +1,28 @@
+
+# Ignore original CUB dataset images
+dataset/CUB_200_2011/images/
+
+# Ignore other large raw dataset archives
+dataset/*.zip
+dataset/*.tar
+dataset/*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow logs
+logs/
